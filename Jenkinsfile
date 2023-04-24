@@ -6,8 +6,11 @@ pipeline{
       steps {
         echo "building repo"
         sh './gradlew build --no-daemon'
-        archiveArtifacts artifacts: 'dist/trainSchedule.zip'
       }   
+    stage("archieve")
+      {
+        archiveArtifacts artifacts: 'dist/trainSchedule.zip'
+      }
   }
  }
 } 
