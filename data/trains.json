@@ -1,19 +1,19 @@
 {
 	"trains": [
 		{
-			"name": "Hogwarts Express",
+			"name": "Venkatadri Express",
 			"stops": [
 				{
-					"station": "Sycamore",
+					"station": "Kurnool",
 					"status": "ON-TIME",
-					"arrival": "12:00pm",
-					"departure": "12:10pm"
+					"arrival": "11:00pm",
+					"departure": "11:10pm"
 				},
 				{
-					"station": "Pine",
+					"station": "Kadapa",
 					"status": "ON-TIME",
-					"arrival": "1:00pm",
-					"departure": "1:10pm"
+					"arrival": "5:15am",
+					"departure": "5:30am"
 				}
 			]
 		},
@@ -37,21 +37,21 @@
 			]
 		},
 		{
-			"name": "Orient Express",
+			"name": "Tungabhadra Express",
 			"stops": [
 				{
-					"station": "Sycamore",
+					"station": "Mahabubnagar",
 					"status": "ON-TIME",
-					"arrival": "12:00pm",
-					"departure": "12:10pm"
+					"arrival": "9:00am",
+					"departure": "9:10am"
 				},
 				{
-					"station": "Cypress",
+					"station": "Gadwal",
 					"status": "DELAYED",
-					"arrival": "1:00pm",
-					"departure": "1:10pm",
-					"delayedArrival": "1:07pm",
-					"delayedDeparture": "1:17pm"
+					"arrival": "11:00am",
+					"departure": "11:10m",
+					"delayedArrival": "11:07am",
+					"delayedDeparture": "11:17am"
 				}
 			]
 		},
