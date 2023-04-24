@@ -9,8 +9,10 @@ pipeline{
       }   
     }
     stage("archieve")
-      {
+    {
+      steps {
         archiveArtifacts artifacts: 'dist/trainSchedule.zip'
       }
+    }
  }
 } 
